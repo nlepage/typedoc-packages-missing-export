@@ -1,0 +1,13 @@
+{
+  "name": "@typedoc-packages-missing-export/a",
+  "version": "0.0.0",
+  "private": true,
+  "packageManager": "yarn@3.1.1",
+  "main": "lib",
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.4"
+  }
+}

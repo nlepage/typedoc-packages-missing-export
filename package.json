@@ -1,0 +1,16 @@
+{
+  "name": "typedoc-packages-missing-export",
+  "version": "0.0.0",
+  "private": true,
+  "packageManager": "yarn@3.1.1",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "yarn workspaces foreach --all --verbose run build"
+  },
+  "dependencies": {
+    "typedoc": "^0.22.10",
+    "typescript": "^4.5.4"
+  }
+}
