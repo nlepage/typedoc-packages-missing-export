@@ -7,6 +7,9 @@
   "scripts": {
     "build": "tsc"
   },
+  "dependencies": {
+    "@typedoc-packages-missing-export/b": "workspace:^"
+  },
   "devDependencies": {
     "typescript": "^4.5.4"
   }

@@ -5,19 +5,19 @@ __metadata:
   version: 5
   cacheKey: 8
 
-"@typedoc-packages-missing-export/a@workspace:^, @typedoc-packages-missing-export/a@workspace:packages/a":
+"@typedoc-packages-missing-export/a@workspace:packages/a":
   version: 0.0.0-use.local
   resolution: "@typedoc-packages-missing-export/a@workspace:packages/a"
   dependencies:
+    "@typedoc-packages-missing-export/b": "workspace:^"
     typescript: ^4.5.4
   languageName: unknown
   linkType: soft
 
-"@typedoc-packages-missing-export/b@workspace:packages/b":
+"@typedoc-packages-missing-export/b@workspace:^, @typedoc-packages-missing-export/b@workspace:packages/b":
   version: 0.0.0-use.local
   resolution: "@typedoc-packages-missing-export/b@workspace:packages/b"
   dependencies:
-    "@typedoc-packages-missing-export/a": "workspace:^"
     typescript: ^4.5.4
   languageName: unknown
   linkType: soft

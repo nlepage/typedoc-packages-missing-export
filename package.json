@@ -7,7 +7,7 @@
     "packages/*"
   ],
   "scripts": {
-    "build": "yarn workspaces foreach --all --verbose run build"
+    "build": "yarn workspaces foreach --all --verbose --topological run build"
   },
   "dependencies": {
     "typedoc": "^0.22.10",

@@ -1,7 +1,8 @@
 {
   "entryPointStrategy": "packages",
   "entryPoints": [
-    "packages/*"
+    "packages/a",
+    "packages/b"
   ],
   "gitRevision": "main"
 }

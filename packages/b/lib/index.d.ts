@@ -1,8 +1,5 @@
-import { A } from '@typedoc-packages-missing-export/a';
 /**
  * This is type B.
  */
-export declare type B = {
-    a: A;
-};
+export declare type B = string;
 //# sourceMappingURL=index.d.ts.map
